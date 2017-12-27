@@ -1,0 +1,20 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  height: 250px;
+  max-width: 500px;
+  border: 1px solid black;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 16px;
+  margin: 24px auto;
+}
+form * {
+  margin-bottom: 8px;
+}
+label, input {
+  display: block;
+}
